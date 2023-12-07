@@ -1,8 +1,8 @@
 # 本地运行的配置文件
 [Server]
 AppMode = "debug"   # debug 开发环境, release 生产环境
-BackPort = ":8765"  # 后台服务端口
-FrontPort = ":5678" # 前台服务端口
+BackPort = ":3333"  # 后台服务端口
+FrontPort = ":3000" # 前台服务端口
 
 [JWT]
 Secret = "abc123321"
@@ -11,17 +11,17 @@ Issuer = "gin-vue-blog"
 
 [Mysql]
 Host = "127.0.0.1"
-Port = "3306"
+Port = "2333"
 Config = ""         # 其他配置, 例如时区
 Dbname = "gvb"      # 数据库名称
 Username = "root"
-Password = "123456" # 数据库密码
+Password = "" # 数据库密码
 # 日志级别 silent, error, warn, info, 默认 info
 LogMode = "error" # silent 相当于关闭日志
 
 [Redis]
 DB = 7
-Addr = '127.0.0.1:6379'
+Addr = '127.0.0.1:2677'
 Password = ''
 
 [Session]
