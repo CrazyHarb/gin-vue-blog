@@ -257,7 +257,7 @@ func (*User) SendCode(email string) (code int) {
 	validateCode := utils.Encryptor.ValidateCode()
 	content := fmt.Sprintf(`
 		<div style="text-align:center">
-			<div>你好！欢迎访问阵、雨的个人博客！</div>
+			<div>你好！欢迎访问后天有雨！</div>
 			<div style="padding: 8px 40px 8px 50px;">
             	<p>
 					您本次的验证码为

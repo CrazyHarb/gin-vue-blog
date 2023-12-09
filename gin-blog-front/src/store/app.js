@@ -20,9 +20,9 @@ export const useAppStore = defineStore('app', {
 
       blogInfo: {
         blog_config: {
-          website_name: '阵、雨的个人博客',
-          website_author: '阵、雨',
-          website_intro: '往事随风而去',
+          website_name: '后天有雨',
+          website_author: 'CrazyHarb',
+          website_intro: '树欲静而风不止',
           website_avatar: '',
         },
         pageList: [],

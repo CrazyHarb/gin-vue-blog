@@ -18,11 +18,13 @@ const isHide = ref(false) // 隐藏弹幕
 const isLoop = ref(false) // 循环播放
 
 // 弹幕列表
-const danmus = ref([{
-  avatar: 'https://www.bing.com/rp/ar_9isCNU2Q-VG1yEDDHnx8HAFQ.png',
-  content: '大家好，我是作者，欢迎给我点一颗 Star!',
-  nickname: '阵、雨',
-}])
+const danmus = ref([
+//  {
+//  avatar: 'https://www.bing.com/rp/ar_9isCNU2Q-VG1yEDDHnx8HAFQ.png',
+//  content: '大家好，我是作者，欢迎给我点一颗 Star!',
+//  nickname: 'CrazyHarb',
+//}
+])
 
 onMounted(async () => {
   const res = await api.getMessages()

@@ -6,8 +6,8 @@
     </p>
     <!-- 添加友链格式 -->
     <blockquote class="border-l-3 border-color-#49b1f5 rounded-l-5 bg-#ecf7fe px-16 py-12 text-15 leading-28">
-      <p>名称：阵、雨的个人博客</p>
-      <p>简介：往事随风而去</p>
+      <p>名称：后天有雨</p>
+      <p>简介：树欲静而风不止</p>
       <p>头像：https://foruda.gitee.com/avatar/1677041571085433939/5221991_szluyu99_1614389421.png</p>
     </blockquote>
     <p class="my-20 text-16">

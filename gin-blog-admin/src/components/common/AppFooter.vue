@@ -10,7 +10,7 @@ const { blogConfig } = storeToRefs(useAppStore())
     <p>
       Copyright©2023
       <a
-        href="https://github.com/szluyu99"
+        href="https://github.com/CrazyHarb"
         target="__blank"
         hover="decoration-underline color-primary"
       >
