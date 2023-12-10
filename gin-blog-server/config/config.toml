@@ -66,3 +66,11 @@ AccessKey = ""
 SecretKey = ""
 UseHttps = false      # 是否使用 https 加速
 UseCdnDomains = false # 上传是否使用 CDN 上传加速
+
+[Qiniu]
+ImgPath = ""          # 外链
+Bucket = "rainyaftertomorrow"
+AccessKey = ""
+SecretKey = ""
+UseHttps = false      # 是否使用 https 加速
+Endpoint = "oss-rg-china-mainland.aliyuncs.com" # 阿里云EndPoint

@@ -14,6 +14,7 @@ type Config struct {
 	Upload  Upload
 	Zap     Zap
 	Qiniu   Qiniu
+	Aliyun  Aliyun
 }
 
 type Server struct {
@@ -92,4 +93,13 @@ type Qiniu struct {
 	SecretKey     string // 秘钥SK
 	UseHTTPS      bool   // 是否使用https
 	UseCdnDomains bool   // 上传是否使用 CDN 上传加速
+}
+
+type Aliyun struct {
+	ImgPath   string // 外链链接
+	Bucket    string // 空间名称
+	AccessKey string // 秘钥AK
+	SecretKey string // 秘钥SK
+	UseHTTPS  bool   // 是否使用https
+	Endpoint  string // 上传的EndPoint
 }

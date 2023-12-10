@@ -18,6 +18,8 @@ func NewOSS() OSS {
 		return &Local{}
 	case "qiniu":
 		return &Qiniu{}
+	case "aliyun":
+		return &Aliyun{}
 	default:
 		return &Local{}
 	}
