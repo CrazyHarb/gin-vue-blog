@@ -48,5 +48,9 @@ func (*Aliyun) UploadFile(file *multipart.FileHeader) (filePath, fileName string
 		return "", "", errors.New("[AliyunUpload] put object error, err:" + err.Error())
 	}
 	//拼接链接,默认使用https
-	return fmt.Sprintf("https://%s.%s/%s", config.Cfg.Aliyun.Bucket, config.Cfg.Aliyun.ImgPath, uploadName), uploadName, nil
+	if config.Cfg.Aliyun.UseHTTPS {
+		return fmt.Sprintf("https://%s.%s/%s", config.Cfg.Aliyun.Bucket, config.Cfg.Aliyun.Endpoint, uploadName), uploadName, nil
+	} else {
+		return fmt.Sprintf("http://%s.%s/%s", config.Cfg.Aliyun.Bucket, config.Cfg.Aliyun.Endpoint, uploadName), uploadName, nil
+	}
 }

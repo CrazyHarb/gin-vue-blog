@@ -96,7 +96,6 @@ type Qiniu struct {
 }
 
 type Aliyun struct {
-	ImgPath   string // 外链链接
 	Bucket    string // 空间名称
 	AccessKey string // 秘钥AK
 	SecretKey string // 秘钥SK

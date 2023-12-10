@@ -67,7 +67,7 @@ SecretKey = ""
 UseHttps = false      # 是否使用 https 加速
 UseCdnDomains = false # 上传是否使用 CDN 上传加速
 
-[Qiniu]
+[Aliyun]
 ImgPath = ""          # 外链
 Bucket = "rainyaftertomorrow"
 AccessKey = ""
