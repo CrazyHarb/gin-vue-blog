@@ -20,8 +20,8 @@ const router = useRouter()
 const { query } = useRoute()
 
 const loginInfo = ref({
-  username: 'test@qq.com',
-  password: '11111',
+  username: '',
+  password: '',
 })
 
 initLoginInfo()
@@ -31,8 +31,8 @@ function initLoginInfo() {
   const localLoginInfo = lStorage.get('loginInfo')
   if (localLoginInfo) {
     loginInfo.value = {
-      username: localLoginInfo.username || 'test@qq.com',
-      password: localLoginInfo.password || '11111',
+      username: localLoginInfo.username || '',
+      password: localLoginInfo.password || '',
     }
   }
 }
@@ -117,7 +117,7 @@ async function handleLogin() {
           <NInput
             v-model:value="loginInfo.username"
             class="autofocus h-50 items-center pl-10 text-16"
-            placeholder="test@qq.com"
+            placeholder="username"
             :maxlength="20"
           />
         </div>
@@ -127,7 +127,7 @@ async function handleLogin() {
             class="h-50 items-center pl-10 text-16"
             type="password"
             show-password-on="mousedown"
-            placeholder="11111"
+            placeholder="password"
             :maxlength="20"
             @keydown.enter="handleLogin"
           />

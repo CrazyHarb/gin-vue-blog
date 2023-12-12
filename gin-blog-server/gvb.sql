@@ -517,7 +517,7 @@ CREATE TABLE `user_auth` (
 
 LOCK TABLES `user_auth` WRITE;
 /*!40000 ALTER TABLE `user_auth` DISABLE KEYS */;
-INSERT INTO `user_auth` VALUES (1,'2022-10-31 21:54:11.040','2023-06-18 20:22:00.927',1,'admin','$2a$10$np.P54Jep7GB/H5vG1PcbudYcxAAf1iiBf7NzsQJT9ZfsYz6tFPcm',1,'172.31.46.51','内网IP','2023-06-18 20:22:00.927'),(2,'2022-10-19 22:31:26.805','2022-12-24 12:13:52.494',2,'user','$2a$10$9vHpoeT7sF4j9beiZfPsOe0jJ67gOceO2WKJzJtHRZCjNJajl7Fhq',1,'172.12.0.6:48716','','2022-12-24 12:13:52.494'),(3,'2022-11-01 10:41:13.300','2023-02-12 15:17:20.393',3,'test@qq.com','$2a$10$FmU4jxwDlibSL9pdt.AsuODkbB4gLp3IyyXeoMmW/XALtT/HdwTsi',1,'192.168.69.88','内网IP','2023-02-12 15:17:20.393');
+INSERT INTO `user_auth` VALUES (1,'2022-10-31 21:54:11.040','2023-06-18 20:22:00.927',1,'Rainydayaftertomorrow','$2a$10$3QzNSbQ7LZaupyRggER80.DsnBYVAe6m869IhXiRGpUwp./mLa8Gm',1,'172.31.46.51','内网IP','2023-06-18 20:22:00.927');
 /*!40000 ALTER TABLE `user_auth` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -548,7 +548,7 @@ CREATE TABLE `user_info` (
 
 LOCK TABLES `user_info` WRITE;
 /*!40000 ALTER TABLE `user_info` DISABLE KEYS */;
-INSERT INTO `user_info` VALUES (1,'2022-10-31 21:54:10.935','2022-12-16 23:42:32.109','','管理员','https://www.bing.com/rp/ar_9isCNU2Q-VG1yEDDHnx8HAFQ.png','我是管理员用户！','https://www.hahacode.cn',0),(2,'2022-10-19 22:31:26.734','2022-12-07 20:55:30.347','user@qq.com','普通用户','https://www.bing.com/rp/ar_9isCNU2Q-VG1yEDDHnx8HAFQ.png','我是个普通用户！','https://www.hahacode.cn',0),(3,'2022-11-01 10:41:13.234','2022-11-30 13:51:51.799','test@qq.com','测试用户','https://www.bing.com/rp/ar_9isCNU2Q-VG1yEDDHnx8HAFQ.png','我是测试用的！','https://www.hahacode.cn',0);
+INSERT INTO `user_info` VALUES (1,'2022-10-31 21:54:10.935','2022-12-16 23:42:32.109','','管理员','https://www.bing.com/rp/ar_9isCNU2Q-VG1yEDDHnx8HAFQ.png','我是管理员用户！','https://www.hahacode.cn',0);
 /*!40000 ALTER TABLE `user_info` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -571,7 +571,7 @@ CREATE TABLE `user_role` (
 
 LOCK TABLES `user_role` WRITE;
 /*!40000 ALTER TABLE `user_role` DISABLE KEYS */;
-INSERT INTO `user_role` VALUES (1,1),(2,2),(3,3);
+INSERT INTO `user_role` VALUES (1,1);
 /*!40000 ALTER TABLE `user_role` ENABLE KEYS */;
 UNLOCK TABLES;
 
