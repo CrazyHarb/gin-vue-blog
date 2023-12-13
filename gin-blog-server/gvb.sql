@@ -106,7 +106,7 @@ CREATE TABLE `blog_config` (
 
 LOCK TABLES `blog_config` WRITE;
 /*!40000 ALTER TABLE `blog_config` DISABLE KEYS */;
-INSERT INTO `blog_config` VALUES (1,'2022-10-30 14:57:38.000','2022-12-17 00:02:41.127','{\r\n  \"website_avatar\": \"https://rainyaftertomorrow.oss-rg-china-mainland.aliyuncs.com/profile/profile.jpg\",\r\n  \"website_name\": \"后天有雨\",\r\n  \"website_author\": \"CrazyHarb\",\r\n  \"website_intro\": \"树欲静而风不止\",\r\n  \"website_notice\": \"博客后端基于 gin、gorm 开发\\n博客前端基于 Vue3、TS、NaiveUI 开发\\n努力开发中...冲冲冲！加油！\",\r\n  \"website_createtime\": \"2022-11-01\",\r\n  \"website_record\": \"京ICP备19044037号-1\",\r\n  \"social_login_list\": [],\r\n  \"social_url_list\": [],\r\n  \"qq\": \"\",\r\n  \"github\": \"https://github.com/CrazyHarb\",\r\n  \"gitee\": \"\",\r\n  \"tourist_avatar\": \"https://rainyaftertomorrow.oss-rg-china-mainland.aliyuncs.com/background/16815451239215dc82548dcadcd578a5bbc8d5deaa.jpg\",\r\n  \"user_avatar\": \"https://rainyaftertomorrow.oss-rg-china-mainland.aliyuncs.com/background/2299fc4d14c94e6183b082973b35855d.png\",\r\n  \"article_cover\": \"https://rainyaftertomorrow.oss-rg-china-mainland.aliyuncs.com/background/1679461519cc592408198d67faf1290ff8969dc614.png\",\r\n  \"is_comment_review\": 1,\r\n  \"is_message_review\": 1,\r\n  \"is_email_notice\": 0,\r\n  \"is_reward\": 0,\r\n  \"wechat_qrcode\": \"http://dummyimage.com/100x100\",\r\n  \"alipay_ode\": \"http://dummyimage.com/100x100\"\r\n}');
+INSERT INTO `blog_config` VALUES (1,'2022-10-30 14:57:38.000','2022-12-17 00:02:41.127','{\r\n  \"website_avatar\": \"https://rainyaftertomorrow.oss-rg-china-mainland.aliyuncs.com/profile/profile.jpg\",\r\n  \"website_name\": \"后天有雨\",\r\n  \"website_author\": \"画中蝉\",\r\n  \"website_intro\": \"树欲静而风不止\",\r\n  \"website_notice\": \"博客后端基于 gin、gorm 开发\\n博客前端基于 Vue3、TS、NaiveUI 开发\\n努力开发中...冲冲冲！加油！\",\r\n  \"website_createtime\": \"2022-11-01\",\r\n  \"website_record\": \"京ICP备19044037号-1\",\r\n  \"social_login_list\": [],\r\n  \"social_url_list\": [],\r\n  \"qq\": \"\",\r\n  \"github\": \"https://github.com/CrazyHarb\",\r\n  \"gitee\": \"\",\r\n  \"tourist_avatar\": \"https://rainyaftertomorrow.oss-rg-china-mainland.aliyuncs.com/background/16815451239215dc82548dcadcd578a5bbc8d5deaa.jpg\",\r\n  \"user_avatar\": \"https://rainyaftertomorrow.oss-rg-china-mainland.aliyuncs.com/background/2299fc4d14c94e6183b082973b35855d.png\",\r\n  \"article_cover\": \"https://rainyaftertomorrow.oss-rg-china-mainland.aliyuncs.com/background/1679461519cc592408198d67faf1290ff8969dc614.png\",\r\n  \"is_comment_review\": 1,\r\n  \"is_message_review\": 1,\r\n  \"is_email_notice\": 0,\r\n  \"is_reward\": 0,\r\n  \"wechat_qrcode\": \"http://dummyimage.com/100x100\",\r\n  \"alipay_ode\": \"http://dummyimage.com/100x100\"\r\n}');
 /*!40000 ALTER TABLE `blog_config` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -547,7 +547,7 @@ CREATE TABLE `user_info` (
 
 LOCK TABLES `user_info` WRITE;
 /*!40000 ALTER TABLE `user_info` DISABLE KEYS */;
-INSERT INTO `user_info` VALUES (1,'2022-10-31 21:54:10.935','2022-12-16 23:42:32.109','','管理员','https://www.bing.com/rp/ar_9isCNU2Q-VG1yEDDHnx8HAFQ.png','我是管理员用户！','https://www.ipoluo.com',0);
+INSERT INTO `user_info` VALUES (1,'2022-10-31 21:54:10.935','2022-12-16 23:42:32.109','','画中蝉','https://www.bing.com/rp/ar_9isCNU2Q-VG1yEDDHnx8HAFQ.png','我是管理员用户！','https://www.ipoluo.com',0);
 /*!40000 ALTER TABLE `user_info` ENABLE KEYS */;
 UNLOCK TABLES;
 
