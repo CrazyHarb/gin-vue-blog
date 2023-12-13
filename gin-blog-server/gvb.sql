@@ -546,7 +546,7 @@ CREATE TABLE `user_info` (
 
 LOCK TABLES `user_info` WRITE;
 /*!40000 ALTER TABLE `user_info` DISABLE KEYS */;
-INSERT INTO `user_info` VALUES (1,'2022-10-31 21:54:10.935','2022-12-16 23:42:32.109','','画中蝉','https://www.bing.com/rp/ar_9isCNU2Q-VG1yEDDHnx8HAFQ.png','我是管理员用户！','https://www.ipoluo.com',0);
+INSERT INTO `user_info` VALUES (1,'2022-10-31 21:54:10.935','2022-12-16 23:42:32.109','','画中蝉','https://rainyaftertomorrow.oss-rg-china-mainland.aliyuncs.com/profile/profile.jpg','我是管理员用户！','https://www.ipoluo.com',0);
 /*!40000 ALTER TABLE `user_info` ENABLE KEYS */;
 UNLOCK TABLES;
 
