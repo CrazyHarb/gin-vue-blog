@@ -128,7 +128,7 @@ async function handleLogin() {
             type="password"
             show-password-on="mousedown"
             placeholder="password"
-            :maxlength="20"
+            :maxlength="30"
             @keydown.enter="handleLogin"
           />
         </div>
