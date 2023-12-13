@@ -8,7 +8,7 @@
     <blockquote class="border-l-3 border-color-#49b1f5 rounded-l-5 bg-#ecf7fe px-16 py-12 text-15 leading-28">
       <p>名称：后天有雨</p>
       <p>简介：树欲静而风不止</p>
-      <p>头像：https://foruda.gitee.com/avatar/1677041571085433939/5221991_szluyu99_1614389421.png</p>
+      <p>头像：https://rainyaftertomorrow.oss-rg-china-mainland.aliyuncs.com/profile/profile.jpg</p>
     </blockquote>
     <p class="my-20 text-16">
       需要交换友链的在下方留言💖:
