@@ -55,6 +55,8 @@ func FrontRouter() http.Handler {
 		base.GET("/home", fBlogInfoAPI.GetFrontHomeInfo) // 前台首页
 		base.GET("/about", blogInfoAPI.GetAbout)         // 获取关于我
 
+		base.GET("/feed", fRssService.HandlerRssHandler)
+
 		article := base.Group("/article")
 		{
 			article.GET("/list", fArticleAPI.GetFrontList)      // 前台文章列表

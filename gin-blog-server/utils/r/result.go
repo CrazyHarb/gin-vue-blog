@@ -23,6 +23,12 @@ func ReturnJson(c *gin.Context, httpCode, code int, msg string, data any) {
 	})
 }
 
+// 返回 Raw 数据
+func ReturnRaw(c *gin.Context, httpCode int, data []byte) {
+	// c.Header("", "") // 根据需要在头部添加其他信息
+	c.Data(httpCode, "application/xml", data)
+}
+
 // 语法糖函数封装
 
 // 自定义 httpCode, code, data
@@ -46,4 +52,8 @@ func SuccessData(c *gin.Context, data any) {
 
 func Success(c *gin.Context) {
 	Send(c, http.StatusOK, OK, nil)
+}
+
+func SuccessRawData(c *gin.Context, data []byte) {
+	ReturnRaw(c, http.StatusOK, data)
 }
